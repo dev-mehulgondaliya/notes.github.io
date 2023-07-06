@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.conatiner{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#cf9aff,#95c0ff);
+    color: #fff;
+    padding-top: 4%;   
+}
+.conatiner h1{
+    display: flex;
+    margin: 0px auto;
+    width: 90%;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    user-select: none;
+}
+.conatiner h1 img{
+    width: 60px;
+}
+.conatiner button img{
+    width: 25px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.conatiner button{
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    user-select: none;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: linear-gradient(#9418fd,#571094);
+    padding: 12px 20px;
+    margin-top: 30px;
+}
+
+.input_box{
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 5%;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid;
+    position: relative;
+}
+.input_box img{
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
