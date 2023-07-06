@@ -29,6 +29,7 @@ cBtn.addEventListener("click",function(){
 noteContainer.addEventListener("click",function(e){
     if(e.target.tagName === "IMG"){
         e.target.parentElement.remove();
+        saveNotes();
     }
 });
 
